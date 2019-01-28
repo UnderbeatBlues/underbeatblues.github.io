@@ -1,0 +1,314 @@
+/* LAYOUT SETTINGS */
+body {
+    background-color: #026498;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-image: url('../img/image09.png');
+    background-repeat: repeat-x;
+}
+
+body .diyw .diyweb {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.diyw #diywebWrapper {
+    width: 940px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 100px;
+    border: 5px solid #fff;
+    position: relative;
+}
+
+.diyw #diywebLeftSide {
+    width: 260px;
+    float: left;
+    position: relative;
+    font-size: 11px;
+}
+
+.diyw #diywebRightSide {
+    width: 590px;
+    float: right;
+    margin-right: 20px;
+}
+
+.diyw #diywebFooter {
+    width: 910px;
+    padding: 20px 20px 0px 20px;
+    clear: both;
+    border-top: 1px solid #ccc;
+    margin: 200px auto 0 auto;
+    position: relative;
+    background-color: #fff;
+}
+
+.diyw #diywebMainContent {
+}
+
+.diyw #diywebContentWrapper {
+    background-color: #fff;
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.diyw #diywebSubContent {
+    padding: 5px;
+}
+
+.diyw #diywebTop {
+    width: 950px;
+    height: 66px;
+    position: absolute;
+    background: url('../img/image04.png');
+    left: -5px;
+    top: -55px;
+}
+
+.diyw #diywebBottom {
+    background: url('../img/image07.png');
+    left: -5px;
+    bottom: -90px;
+    position: absolute;
+    width: 950px;
+    height: 92px;
+}
+
+.diyw #diywebFooterTop {
+    background: url('../img/image08.png');
+    left: 0px;
+    top: -90px;
+    position: absolute;
+    width: 950px;
+    height: 92px;
+    color: #1868A8;
+}
+
+.diyw #diywebFooterCenter, .diyw .diywebListItem, .diyw #diywebAllContent, .diyw #diywebHeader, .diyw .diywebFooterCenter, .diyw #mainNav1, .diyw #diywebHeader div#emotion-header, .diyw #diywebHeadWrap {
+    margin: 0 auto;
+}
+
+/* TEXTFORMATIERUNG */
+.diyw p, .diyw table {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.diyw a, .diyw #diywebLeftSide a {
+    color: #860038;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.diyw .hr {
+    border-color: #ccc;
+}
+
+.diyw h1, .diyw h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.diyw h1 {
+    font-size: 25px;
+    color: #1868A8;
+    line-height: 25px;
+}
+
+.diyw h2 {
+    font-size: 15px;
+    color: #006837;
+}
+
+.diyw #diywebLeftSide h1 {
+    text-transform: none;
+    color: #860038;
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.diyw #diywebLeftSide h2 {
+    text-transform: uppercase;
+    color: #860038;
+    font-size: 15px;
+}
+
+.diyw #diywebLeftSide p {
+    color: #606078;
+}
+
+/* HEADER */
+.diyw #diywebHeader {
+    position: relative;
+}
+
+/* NAVIGATION */
+.diyw #mainNav1 a, .diyw #mainNav2 a, .diyw #mainNav3 a {
+    display: block;
+    text-decoration: none;
+    color: #4D4D4D;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.diyw #mainNav1 > li:hover > a, .diyw #mainNav2 > li:hover > a, .diyw #mainNav3 > li:hover > a {
+}
+
+.diyw #mainNav1 {
+    font-size: 22px;
+    padding-left: 0px;
+}
+
+.diyw #mainNav1 li {
+    padding-bottom: 30px;
+    margin-right: 10px;
+    float: left;
+    list-style: none;
+}
+
+.diyw #mainNav1 li a {
+    text-align: center;
+    color: #fff;
+    padding: 0 8px;
+    line-height: 38px;
+}
+
+.diyw #mainNav1 li:last-child {
+    border-right: none;
+}
+
+.diyw #mainNav1 li a.current, .diyw #mainNav1 li:hover a {
+}
+
+.diyw #mainNav1 [class^="navTopItemGroup_"] > a {
+    background-color: #6D8D23;
+}
+
+.diyw #mainNav1 [class^="navTopItemGroup_"]:nth-child(2n+2) > a {
+    background-color: #327494;
+}
+
+.diyw #mainNav1 [class^="navTopItemGroup_"]:nth-child(3n+3) > a {
+    background-color: #860038;
+}
+
+.diyw #mainNav1 [class^="navTopItemGroup_"] {
+    background-image: url('../img/image01.png');
+    background-position: right 17px;
+    background-repeat: no-repeat;
+}
+
+.diyw #mainNav1 [class^="navTopItemGroup_"]:nth-child(2n+2) {
+    background-image: url('../img/image02.png');
+}
+
+.diyw #mainNav1 [class^="navTopItemGroup_"]:nth-child(3n+3) {
+    background-image: url('../img/image03.png');
+}
+
+.diyw #mainNav1 > li {
+    background: url('../img/image03.png') right 17px no-repeat;
+}
+
+.diyw #mainNav2 {
+    font-family: Times;
+    font-size: 16px;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    background-color: #68A0C8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.diyw #mainNav2 li {
+}
+
+.diyw #mainNav2 li a {
+    color: #182860;
+    background: url('../img/image05.png') no-repeat left center;
+    padding-left: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.diyw #mainNav2 li a > span {
+    border-bottom: 1px solid #182860;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    width: 180px;
+}
+
+.diyw #mainNav2 > li:hover > a {
+    font-weight: bold;
+}
+
+.diyw #mainNav2 li:first-child a {
+}
+
+.diyw #mainNav3 {
+    list-style: none;
+    padding-left: 60px;
+    font-size: 13px;
+}
+
+.diyw #mainNav3 li {
+    border: none;
+    padding: 0px;
+}
+
+.diyw #mainNav3 li a {
+    background: none;
+    background: url('../img/image06.png') no-repeat left center;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.diyw #mainNav3 li a span {
+    border: none;
+}
+
+.diyw #mainNav3 li a.current, .diyw #mainNav3 li:hover a {
+}
+
+/* EMOTIONHEADER */
+.diyw #emotion-header {
+}
+
+/* FOOTER */
+.diyw #diywebFooter {
+    color: #606078;
+}
+
+.diyw #diywebFooterCenter {
+    font-size: 10px;
+}
+
+.diyw #diywebFooterCenter a {
+    color: #606078;
+    text-decoration: none;
+}
+
+/* CLEARFIX */
+.diyw #diywebAllContent:before, .diyw #diywebAllContent:after, .diyw #mainNav1:before, .diyw #mainNav1:after, .diyw #mainNav2:before, .diyw #mainNav2:after, .diyw #mainNav3:before, .diyw #mainNav4:after, .diyw .thumbElement {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.diyw #mainNav1:after, .diyw #mainNav2:after, .diyw #mainNav3:after, .diyw #diywebAllContent:after, .diyw .thumbElement {
+    clear: both;
+}
+
+.diyw #mainNav1, .diyw #mainNav2, .diyw #mainNav3, .diyw #diywebAllContent, .diyw .thumbElement {
+    zoom: 1;
+}
