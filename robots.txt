@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: https://www.underbeatblues.com/c/
-Disallow: https://www.underbeatblues.com/protected/
 Sitemap: https://www.underbeatblues.com/sitemap.xml
